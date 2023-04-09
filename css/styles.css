@@ -27,8 +27,7 @@ body {
 }
 
 .contenedor {
-    max-width: 120rem;
-    background: red;
+    max-width: 120rem;  
     margin: 0 auto;
 }
 
@@ -37,7 +36,6 @@ body {
 }
 
 .navegacion-principal {
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -45,6 +43,30 @@ body {
 .navegacion-principal a {
     color: var(--blanco);
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+@media (min-width: 480px) {
+    body {
+        background-color: rgb(52, 209, 123);
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+@media (min-width: 1200px) {
+    
 }
 
 
