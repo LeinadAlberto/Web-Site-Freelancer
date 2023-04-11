@@ -17,11 +17,14 @@ html {
 
 /* Scroll Snap */
 header,
-.formulario,
 .scroll-servicios,
 .scroll-contacto {
     scroll-snap-align: start;
     scroll-snap-stop: always;
+}
+
+header {
+    padding-top: 0.67rem; 
 }
 
 *, *:before, *:after {
