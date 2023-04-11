@@ -54,7 +54,7 @@
         </section>
 
         <main class="contenedor sombra">
-            <h2>Mis Servicios</h2>
+            <h2 class="scroll-servicios">Mis Servicios</h2>
 
             <div class="servicios">
                 <section class="servicio">
@@ -120,43 +120,46 @@
                     </p>
                 </section>
             </div><!-- /.servicios -->
+
+            <section>
+                <h2 class="scroll-contacto">Contacto</h2>
+    
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Contáctame llenando todos los campos</legend>
+                        
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label for="">Nombre</label>
+                                <input class="input-text" type="text" placeholder="Tu Nombre">
+                            </div>
+        
+                            <div class="campo">
+                                <label for="">Teléfono</label>
+                                <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                            </div>
+        
+                            <div class="campo">
+                                <label for="">Correo</label>
+                                <input class="input-text" type="email" placeholder="Tu Email">
+                            </div>
+        
+                            <div class="campo">
+                                <label for="">Mensaje</label>
+                                <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div><!-- /.contenedor-campos -->
+    
+                        <div class="alinear-derecha flex">
+                            <input class="boton w-sm-100" type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
         </main>
 
-        <section>
-            <h2>Contacto</h2>
 
-            <form action="">
-                <fieldset>
-                    <legend>Contáctame llenando todos los campos</legend>
-
-                    <div>
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="Tu Nombre">
-                    </div>
-
-                    <div>
-                        <label for="">Teléfono</label>
-                        <input type="tel" placeholder="Tu Teléfono">
-                    </div>
-
-                    <div>
-                        <label for="">Correo</label>
-                        <input type="email" placeholder="Tu Email">
-                    </div>
-
-                    <div>
-                        <label for="">Mensaje</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
-
-        <footer>
+        <footer class="footer">
             <p>Todos los derechos reservados. Daniel Canaviri Freelancer</p>
         </footer>
     </body>
